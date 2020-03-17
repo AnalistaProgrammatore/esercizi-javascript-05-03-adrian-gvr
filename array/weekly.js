@@ -21,5 +21,9 @@ function mediaMensile(){
 function mediaSettimanale(settimana){
   let totale = 0;
   for (let j = 0; i<dataStore.[settimana - 1].length; j++){
-    
-
+    total+=this.dataStore[settimana - 1][j];
+  }
+  return total/this.dataStore[settimana-1].length;
+}
+let thisWeek = new weekTemps();
+thisWeek.add(1,52
