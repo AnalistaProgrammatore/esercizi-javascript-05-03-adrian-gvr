@@ -1,6 +1,6 @@
 function generaParola(){
   let this.lettere = [];
-  this.unaParola() = unaParola();
+  this.unaParola = unaParola;
 }
 function unaParola(...lettera){
   this.lettere.push(...lettera);
